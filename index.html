@@ -13,15 +13,19 @@
         <div id="screen-container">
 
             <h1>Welcome to Utopia, Agent.</h1>
-            <h1>Prepare for Uplink - Establish Persona...</h1>
+            <h2>Prepare for Uplink - Establish Persona...</h2>
+            <br>
 
             <form action="/" method="post">
+                <div>
                 <label for="name">
-                    Name
-                    <input type="text" id="name" name="name" required placeholder="Maritz">
+                    Name:
+                    <input type="text" id="name" name="name" required placeholder="Maritz" maxlength="15">
                 </label>
+                </div>
+                <div>
                 <label for="location">
-                    Uplink-location
+                    Uplink-location:
                     <select name="uplink-location" id="location" required>
                         <option value="hong-kong">Hong-Kong</option>
                         <option value="geneva">Geneva</option>
@@ -31,26 +35,36 @@
                         <option value="london">London</option>
                     </select>
                 </label>
-                <br>
+                </div>
+                <!-- <br> -->
+                <div>
                 <label for="implants">
-                    Number of Implants
+                    Number of Implants:
                     <input type="number" id="implants" name="implants" min="0" max="20" required placeholder="3">
                 </label>
+                </div>
+                <div>
                 <label for="email">
-                    E-Mailing Address
-                    <input type="email"  id="email" name="email" required placeholder="maritz@eurocorp.ai">
+                    E-Mailing Address:
+                    <input type="email"  id="email" name="email" required placeholder="maritz@eurocorp.ai" maxlength="15">
                 </label>
-                <br>
+                </div>
+                <!-- <br> -->
+                <div>
                 <label for="pw1">
-                    Pass-Phrase
-                    <input type="password" id="pw1" name="pw1" required>
+                    Pass-Phrase:
+                    <input type="password" id="pw1" name="pw1" required placeholder="******" maxlength="15">
                 </label>
+                </div>
+                <div>
                 <label for="pw2">
-                    Repeat Pass-Phrase
-                    <input type="password" id="pw2" name="pw2" required>
+                    Repeat Pass-Phrase:
+                    <input type="password" id="pw2" name="pw2" required placeholder="******" maxlength="15">
                 </label>
-                <br>
-                <button type="submit">Initiate</button>
+                </div>
+                <!-- <br> -->
+                <!-- <br> -->
+                <button type="submit">INITIATE</button>
             </form>
 
         </div>

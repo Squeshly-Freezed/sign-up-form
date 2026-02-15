@@ -20,7 +20,7 @@
                 <div>
                 <label for="name">
                     Name:
-                    <input type="text" id="name" name="name" required placeholder="Maritz" maxlength="15">
+                    <input type="text" id="name" name="name" required placeholder="Maritz" minlength="3" maxlength="15">
                 </label>
                 </div>
                 <div>
@@ -36,7 +36,6 @@
                     </select>
                 </label>
                 </div>
-                <!-- <br> -->
                 <div>
                 <label for="implants">
                     Number of Implants:
@@ -49,21 +48,18 @@
                     <input type="email"  id="email" name="email" required placeholder="maritz@eurocorp.ai" maxlength="15">
                 </label>
                 </div>
-                <!-- <br> -->
                 <div>
                 <label for="pw1">
                     Pass-Phrase:
-                    <input type="password" id="pw1" name="pw1" required placeholder="******" maxlength="15">
+                    <input type="password" id="pw1" name="pw1" required placeholder="******" minlength="6" maxlength="15">
                 </label>
                 </div>
                 <div>
                 <label for="pw2">
                     Repeat Pass-Phrase:
-                    <input type="password" id="pw2" name="pw2" required placeholder="******" maxlength="15">
+                    <input type="password" id="pw2" name="pw2" required placeholder="******" minlength="6" maxlength="15">
                 </label>
                 </div>
-                <!-- <br> -->
-                <!-- <br> -->
                 <button type="submit">INITIATE</button>
             </form>
 

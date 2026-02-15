@@ -11,27 +11,48 @@
 <body>
     <div id="background-container">
         <div id="screen-container">
+
+            <h1>Welcome to Utopia, Agent.</h1>
+            <h1>Prepare for Uplink - Establish Persona...</h1>
+
             <form action="/" method="post">
-
-
-
-                <label><input type="text" name=""></label>
-
-                <label><select name="Uplink Location"></label>
-
-                <label><input type="number" name=""></label>
-
-                <label><input type="email" name=""></label>
-
-                <label><input type="password" name=""></label>
-
-                <label><input type="password" name=""></label>
-
-
-
-
-
+                <label for="name">
+                    Name
+                    <input type="text" id="name" name="name" required placeholder="Maritz">
+                </label>
+                <label for="location">
+                    Uplink-location
+                    <select name="uplink-location" id="location" required>
+                        <option value="hong-kong">Hong-Kong</option>
+                        <option value="geneva">Geneva</option>
+                        <option value="vancouver">Vancouver</option>
+                        <option value="rome">Rome</option>
+                        <option value="new york">New York</option>
+                        <option value="london">London</option>
+                    </select>
+                </label>
+                <br>
+                <label for="implants">
+                    Number of Implants
+                    <input type="number" id="implants" name="implants" min="0" max="20" required placeholder="3">
+                </label>
+                <label for="email">
+                    E-Mailing Address
+                    <input type="email"  id="email" name="email" required placeholder="maritz@eurocorp.ai">
+                </label>
+                <br>
+                <label for="pw1">
+                    Pass-Phrase
+                    <input type="password" id="pw1" name="pw1" required>
+                </label>
+                <label for="pw2">
+                    Repeat Pass-Phrase
+                    <input type="password" id="pw2" name="pw2" required>
+                </label>
+                <br>
+                <button type="submit">Initiate</button>
             </form>
+
         </div>
 
         <div id="footer">

@@ -2,8 +2,8 @@
     font-family: 'Iceland';
     font-weight: normal;
     font-style: normal;
-    src: url("/font/Iceland-Regular.woff2"),
-         url("/font/Iceland-Regular.woff");
+    src: url("./font/Iceland-Regular.woff2"),
+         url("./font/Iceland-Regular.woff");
 }
 
 * {

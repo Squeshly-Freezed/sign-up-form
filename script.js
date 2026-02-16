@@ -14,7 +14,6 @@ function submitForm (e) {
         form.reportValidity();
     }
 }
-
 form.addEventListener("submit", submitForm);
 
 
@@ -26,6 +25,5 @@ const submit = document.querySelector("button");
 function validatePassword () {
     pw2.setCustomValidity(pw1.value !== pw2.value ? "Pass-phrases must harmonize" : "");
 }
-
 pw1.addEventListener("input", validatePassword);
 pw2.addEventListener("input", validatePassword);

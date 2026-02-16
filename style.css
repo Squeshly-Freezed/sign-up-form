@@ -22,10 +22,11 @@ body {
 #background-container {
     display: flex;
     flex-direction: column;
-    background-image: url(img/lab.png);
+    background-image: url(./img/lab.png);
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(215, 236, 255);
     height: 100dvh;
     position: relative;
@@ -104,11 +105,8 @@ button {
 }
 @media (max-height: 1100px) {
     #screen-container {
-        top: calc(50% + 1%);
-    }
-}
-@media (max-height: 980px) {
-    #screen-container > * {
+        #screen-container > * {
         font-size: calc((0.85vh + 0.75rem));
+        }
     }
 }

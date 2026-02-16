@@ -8,7 +8,7 @@ function submitForm (e) {
     if (form.checkValidity()) {
         e.preventDefault();
         h2.textContent = "";
-        h1.textContent = "Success - Have a Profitable Day.";
+        h1.textContent = "Success - Have a Profitable Day, executive.";
     } else {
         e.preventDefault();
         form.reportValidity();
